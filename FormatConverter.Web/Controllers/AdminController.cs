@@ -72,10 +72,11 @@ public class AdminController : Controller
         }
 
         var converters = _moduleService.GetConverterModules();
-        permissionsVm.Permissions = 
+        permissionsVm.Permissions = (
             from converter in converters
             let converterName = converter.GetType().Name
-            select new SelectListItem(converterName, converterName);
+            select new SelectListItem(converterName, converterName)).ToList();
+
         foreach (var selectListItem in permissionsVm.Permissions)
             selectListItem.Selected = await _permissionService.UserHasPermission(user, selectListItem.Value);
 
