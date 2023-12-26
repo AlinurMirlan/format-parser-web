@@ -19,7 +19,14 @@
             }
             else
             {
-                <p>You don't have permissions for any format conversions. Please, contact the administrator at alinur.admin@gmail.com.</p>
+                if (User.IsInRole("admin"))
+                {
+                    <p>Converter modules have not been uploaded.</p>
+                }
+                else
+                {
+                    <p>You don't have permissions for any format conversions. Please, contact the administrator at alinur.admin@gmail.com.</p>
+                }
             }
         </div>
     </div>
