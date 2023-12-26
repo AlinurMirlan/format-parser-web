@@ -1,0 +1,9 @@
+﻿@model ConverterVm
+
+<form asp-controller="Home" asp-action="Converter" method="get" class="d-flex justify-content-center align-items-center">
+    <input asp-for="ConverterClassName" type="hidden" />
+
+    <button type="submit" class="btn btn-outline-primary btn-lg">
+        @($"Convert from {Model.ConvertFrom} to {Model.ConvertTo}")
+    </button>
+</form>

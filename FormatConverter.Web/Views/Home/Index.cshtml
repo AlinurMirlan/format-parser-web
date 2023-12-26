@@ -1,0 +1,26 @@
+﻿@using FormatConverter.Library
+@model IEnumerable<ConverterVm>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-body text-center">
+            <h2 class="mt-3 mb-4">Conversions</h2>
+            @if (Model.Count() > 1)
+            {
+                @foreach (var formatConverter in Model)
+                {
+                    <div class="mb-3">
+                        <partial name="_ConverterOption" model="formatConverter" />
+                    </div>
+                }
+            }
+            else
+            {
+                <p>You don't have permissions for any format conversions. Please, contact the administrator at alinur.admin@gmail.com.</p>
+            }
+        </div>
+    </div>
+</div>

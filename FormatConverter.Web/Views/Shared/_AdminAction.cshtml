@@ -1,0 +1,7 @@
+﻿@model AdminActionVm
+
+<form asp-controller="Admin" asp-action="@(Model.Action)" method="get" class="d-flex justify-content-center align-items-center">
+    <button type="submit" class="btn btn-outline-primary btn-lg">
+        @(Model.Title)
+    </button>
+</form>

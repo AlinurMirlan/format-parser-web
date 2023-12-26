@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormatConverter.Web", "FormatConverter.Web\FormatConverter.Web.csproj", "{1AB48E5F-D2D9-4E6D-8D9E-BEBEE2B46520}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormatParser.Library", "FormatParser.Library\FormatParser.Library.csproj", "{4AA85B1E-CAB6-4D6E-BB27-FFE5282CA793}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormatConverter.Library", "FormatConverter.Library\FormatConverter.Library.csproj", "{E0875D5C-5A62-4D24-8DAE-A2F9EC5A564E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormatConverter.Module.Pcms2Krsu", "FormatConverter.Module.Pcms2Krsu\FormatConverter.Module.Pcms2Krsu.csproj", "{714EF24D-457D-4088-AFB1-939CB3F897E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormatConverter.Module.EjudgeToKrsu", "FormatConverter.Module.EjudgeToKrsu\FormatConverter.Module.EjudgeToKrsu.csproj", "{A56D31C3-249A-4028-85C6-CCFBD420C161}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormatConverter.Module.CatsToKrsu", "FormatConverter.Module.CatsToKrsu\FormatConverter.Module.CatsToKrsu.csproj", "{8BAD3F58-AF74-402F-9ED9-AF2211D1AD7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AB48E5F-D2D9-4E6D-8D9E-BEBEE2B46520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB48E5F-D2D9-4E6D-8D9E-BEBEE2B46520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB48E5F-D2D9-4E6D-8D9E-BEBEE2B46520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB48E5F-D2D9-4E6D-8D9E-BEBEE2B46520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AA85B1E-CAB6-4D6E-BB27-FFE5282CA793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA85B1E-CAB6-4D6E-BB27-FFE5282CA793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA85B1E-CAB6-4D6E-BB27-FFE5282CA793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA85B1E-CAB6-4D6E-BB27-FFE5282CA793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0875D5C-5A62-4D24-8DAE-A2F9EC5A564E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0875D5C-5A62-4D24-8DAE-A2F9EC5A564E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0875D5C-5A62-4D24-8DAE-A2F9EC5A564E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0875D5C-5A62-4D24-8DAE-A2F9EC5A564E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{714EF24D-457D-4088-AFB1-939CB3F897E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{714EF24D-457D-4088-AFB1-939CB3F897E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{714EF24D-457D-4088-AFB1-939CB3F897E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{714EF24D-457D-4088-AFB1-939CB3F897E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56D31C3-249A-4028-85C6-CCFBD420C161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56D31C3-249A-4028-85C6-CCFBD420C161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56D31C3-249A-4028-85C6-CCFBD420C161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56D31C3-249A-4028-85C6-CCFBD420C161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BAD3F58-AF74-402F-9ED9-AF2211D1AD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BAD3F58-AF74-402F-9ED9-AF2211D1AD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BAD3F58-AF74-402F-9ED9-AF2211D1AD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BAD3F58-AF74-402F-9ED9-AF2211D1AD7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B567DA9C-EE08-40CD-9178-61BDAA23EB85}
+	EndGlobalSection
+EndGlobal
