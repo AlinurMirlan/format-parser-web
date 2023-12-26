@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/FormatConverter.Library/bin/Debug/net8.0
+/FormatConverter.Library/obj
+/FormatConverter.Module.CatsToKrsu/bin/Debug/net8.0
+/FormatConverter.Module.CatsToKrsu/obj
+/FormatConverter.Module.EjudgeToKrsu/bin/Debug/net8.0
+/FormatConverter.Module.EjudgeToKrsu/obj
+/FormatConverter.Module.Pcms2Krsu/bin/Debug/net8.0
+/FormatConverter.Module.Pcms2Krsu/obj
+/FormatConverter.Web/bin
+/FormatConverter.Web/obj
+/FormatParser.Library/bin/Debug/net7.0
+/FormatParser.Library/obj
